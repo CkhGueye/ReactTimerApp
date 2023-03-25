@@ -1,0 +1,50 @@
+.wrapper {
+  position: relative;
+  /* width: 300px;
+  height: 300px; */
+  margin: auto;
+  border-radius: 50%;
+  padding: 36px;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+    -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+
+.inner-shadow {
+  /* height: 228px;
+  width: 228px; */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+    inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+    -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+    0.5px 0.5px 0px rgba(0, 0, 0, 0.15), 0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+}
+
+circle {
+  fill: none;
+  stroke: url(#GradientColor);
+  transform: rotate(-90deg);
+  transform-origin: center;
+  transition-timing-function: ease-out;
+  transition-duration: 2s;
+}
+
+.wrapper svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#timer-label span:nth-child(1) {
+  position: absolute;
+  top: 80px;
+  border-bottom: 1px solid;
+}
+
+#time-left {
+  font-size: 75px;
+  font-weight: 600;
+  margin-top: 40px;
+}

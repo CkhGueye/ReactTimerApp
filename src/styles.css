@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #e3edf7;
+  color: #555;
+  text-align: center;
+  min-width: 300px;
+  font-size: 24px;
+}
+
+a {
+  color: inherit;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.controls > div {
+  box-shadow: 6px 6px 10px -1px rgb(0 0 0 / 15%),
+    -6px -6px 10px -1px rgb(255 255 255 / 35%);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 15px;
+  height: 65px;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.controls button {
+  display: grid;
+  place-items: center;
+  border: unset;
+  background-color: rgba(152, 50, 238, 0.05);
+  color: #555;
+  padding: 10px;
+  width: 90px;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.controls .block-btn {
+  width: 205px;
+  margin: auto;
+}
+
+button svg {
+  color: #555;
+}
+
+.label > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.label span:first-child {
+  font-size: 16px;
+}
+
+.footer {
+  font-size: 12px;
+  text-align: center;
+  padding: 15px 15px 5px;
+}
+
+@media (max-width: 600px) {
+  .footer {
+    padding-block: 10px;
+  }
+}
+
+/*
+@media (max-height: 700px) {
+  .footer {
+    bottom: 50%;
+    right: -95px;
+    rotate: 90deg;
+    padding: 0;
+    transform-origin: center;
+  }
+}
+*/
