@@ -6,4 +6,4 @@ Implemented by using features such as useReducer for states management and useCo
 
 [Live View](https://ckhgueye.github.io/ReactTimerApp/)
 
-<img src="https://user-images.githubusercontent.com/83069563/227727745-455f74d1-76c1-42cd-83de-513783d30602.png">
+<img src="https://user-images.githubusercontent.com/83069563/227734493-4089cf4e-b43f-48a9-8635-0f264f127c7a.png">
