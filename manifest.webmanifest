@@ -1,1 +1,1 @@
-{"name":"My Timer App","short_name":"Timer App","start_url":"/","display":"standalone","background_color":"#ff0000","lang":"en","scope":"https://ckhgueye.github.io/ReactTimerApp/","theme_color":"#000000","icons":[{"src":"icon-512x512.png","sizes":"512x512","type":"image/png"}]}
+{"name":"My Timer App","short_name":"Timer App","start_url":"/index.html","display":"standalone","background_color":"#ff0000","lang":"en","scope":"https://ckhgueye.github.io/ReactTimerApp/","theme_color":"#000000","icons":[{"src":"icon-350x350.png","sizes":"350x350","type":"image/png"}]}
