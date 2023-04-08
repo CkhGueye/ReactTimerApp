@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('https://ckhgueye.github.io/ReactTimerApp/sw.js', { scope: 'https://ckhgueye.github.io/ReactTimerApp/' })})}
