@@ -63,6 +63,14 @@ a {
   margin: auto;
 }
 
+.controls button:nth-of-type(1) {
+  border-radius: 10px 0 0 10px;
+}
+
+.controls button:nth-of-type(2) {
+  border-radius: 0 10px 10px 0;
+}
+
 button svg {
   color: #555;
 }
@@ -71,10 +79,17 @@ button svg {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  flex: 1;
+  row-gap: 5px;
 }
 
 .label span:first-child {
   font-size: 16px;
+  white-space: nowrap;
+}
+
+.label span:last-child {
+  line-height: 1;
 }
 
 .footer {
